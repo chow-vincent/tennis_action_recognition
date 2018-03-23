@@ -1,0 +1,15 @@
+{
+    "dense_units": 128, 
+    "hidden_units": 128, 
+    "decay": 0.0, 
+    "learning_rate": 0.001, 
+    "dropout_rate": 0.3, 
+    "batch_size": 128, 
+    "reg": 0.0, 
+    "train_size": 0.8, 
+    "model_version": "lstm", 
+    "seq_length": 16, 
+    "saved_model": "None", 
+    "nb_epoch": 300, 
+    "num_classes": 6
+}
