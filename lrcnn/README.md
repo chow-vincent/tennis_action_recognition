@@ -45,6 +45,13 @@ You will have to edit this file to take in the hyperparameters you used, and the
 This file was used to generate the training/validation/test set splits for the THETIS dataset. The generated **data_file.csv** in the **data** directory contains this information.
 
 
+## extract_and_save_sequences.ipynb
+
+This file will extract and save features using the Inception V3 CNN network, pretrained on ImageNet. The script will only extract features from samples listed in **data_to_csv.ipynb**.
+
+Sequences are .npy files stored in the **data/sequences** directory within the respective class of tennis stroke.
+
+
 ## data_utils.py
 
 This file contains helper functions for preparing, processing, and manipulating data.
