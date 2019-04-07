@@ -2,11 +2,11 @@
 
 ## Authors: Vincent Chow and Ohi Dibua 
 
-This is the code repository for our CS230: Deep Learning final project. 
+This is the code repository for our [CS230: Deep Learning Final Project](http://cs230.stanford.edu/files_winter_2018/projects/6945761.pdf). 
 
 Our goal was to apply deep learning techniques to classify videos of players performing tennis strokes (e.g. forehand, backhand, service).
 
-The dataset consists of 1980 RGB videos sized 640 x 480. In each clip, a player performs one of 12 possible tennis strokes.  
+The [dataset](http://thetis.image.ece.ntua.gr/) consists of 1980 RGB videos sized 640 x 480. In each clip, a player performs one of 12 possible tennis strokes.  
 
 We attempt two different approaches. 
 
