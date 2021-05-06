@@ -6,9 +6,7 @@ In this directory you will find everything you need to train and evaluate the LR
 NOTE: Training and model evaluation code below will not run unless the features
 extracted from the Inception V3 network are stored in .npy files in the **data/sequences** directory. 
 
-Due to file storage limits by GitHub, I am unable to push this data. Please contact me if you would like to access these already generated features (~230 MB sized file).
-
-Otherwise, you can generate these files yourself by running the **extract_and_save_sequences.ipynb** file, which will extract features for the samples listed in the **data_file.csv** file. This takes approximately 12 seconds per video, and over 6 hours for the entire dataset.
+You can generate these files yourself by running the **extract_and_save_sequences.ipynb** file, which will extract features for the samples listed in the **data_file.csv** file. This takes approximately 12 seconds per video on a mid-2012 macbook pro (6 hours for the entire dataset). NOTE: You MUST consolidate the VIDEO_RGB dataset videos into the following folders: backhand, forehand, bvolley, fvolley, service, smash. This ensures the file path names match those in `data/data_file.csv`.
 
 
 ## Model Training

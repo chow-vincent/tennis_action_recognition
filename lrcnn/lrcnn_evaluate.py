@@ -156,7 +156,7 @@ if __name__ == "__main__":
 
     target_names = ['backhand', 'bvolley', 'forehand', 'fvolley', 
                    'service', 'smash']
-    print classification_report(Y_test_class, Y_pred_class, target_names=target_names)
+    print(classification_report(Y_test_class, Y_pred_class, target_names=target_names))
     conf_matrix = confusion_matrix(Y_test_class, Y_pred_class)
 
     sns.set(font_scale=1.7)

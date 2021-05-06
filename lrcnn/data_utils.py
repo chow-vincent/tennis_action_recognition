@@ -239,7 +239,7 @@ class DataSet():
 			print("%s: %.2f" % (class_prediction[0], class_prediction[1]))
 
 
-	@threadsafe_generator
+	# @threadsafe_generator
 	def frame_generator(self, batch_size, train_validate):
 		"""
 		This function creates a generator that we will use during training.
